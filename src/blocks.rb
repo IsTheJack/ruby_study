@@ -48,6 +48,3 @@ def receive_block(&block)
 end
 
 receive_block { puts 'explicit block is interesting' }
-
-# I can store a proc
-# my_prop = Proc.new { }
